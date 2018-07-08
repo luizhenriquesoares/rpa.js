@@ -1,0 +1,14 @@
+out/
+dist/
+node_modules/
+npm-debug.log
+yarn-error.log
+app/node_modules/
+.DS_Store
+.awcache
+.idea/
+*.json
+*.md
+
+app/static/common
+app/test/fixtures

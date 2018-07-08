@@ -1,0 +1,41 @@
+{
+  "name": "electron-next-typescript",
+  "version": "1.0.0",
+  "description": "A minimal Electron application SSR",
+  "main": "app/src/main-process/main.ts",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luizhenriquesoares/electron-next-quick-start"
+  },
+  "author": {
+    "name": "Luiz Henrique Soares",
+    "email": "luizhenriquesoares91@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "@zeit/next-typescript": "^1.1.0",
+    "chalk": "^2.4.1",
+    "electron-debug": "^2.0.0",
+    "electron-is-dev": "^0.3.0",
+    "electron-next": "^3.1.4",
+    "electron-window-state": "^4.1.1",
+    "fork-ts-checker-webpack-plugin": "^0.4.2",
+    "next": "^6.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-microsoft-contrib": "^5.0.3",
+    "tslint-react": "^3.6.0",
+    "typescript": "^2.9.2",
+    "typescript-eslint-parser": "^16.0.1"
+  }
+}
